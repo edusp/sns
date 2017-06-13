@@ -1,0 +1,40 @@
+ .navbar-inverse {
+    background-color: #f1afb0;
+    border-color: #f1afb0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-family: "Helvetica Neue",Helvetica,Arial,cursive;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #818286;
+}
+
+.navbar-inverse .navbar-nav>li>a:HOVER {
+    color: #ffffff;
+}
+
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+    color: #555;
+    text-decoration: none;
+    background-color: #b0e6ff;
+}
+
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #f1afb0;
+    
+}
+
+
+.btn-info:hover {
+    color: #fff;
+    /* background-color: #f1afb0; */
+    border-color: #b0e6ff;
+    box-shadow: 3px 2px 12px -3px #000000
+}

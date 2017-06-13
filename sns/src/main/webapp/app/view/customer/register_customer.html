@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<form role="form">
+ 
+	<div class="col-lg-6">
+		<div class="form-group">
+		    <label>Name</label>
+		    <input class="form-control input-lg" type="text" name="name" ng-model="customer.name">
+		</div>
+		
+		<div class="form-group">
+		    <label>Email address</label>
+		    <input class="form-control input-lg" type="email" name="email" ng-model="customer.email">
+		    <p class="help-block">We'll never share your email with anyone else.</p>
+		</div>
+		
+		<div class="form-group">
+		    <label>Contact number</label>
+		    <input class="form-control input-lg" type="tel" name="phone" ng-model="customer.phone">
+		</div>
+		<div class="row">
+			<div class="col-xs-5">
+		<div class="form-group">
+		    <label>Post code</label>
+		    <input class="form-control input-lg" type="number" name="postCode" placeholder="" ng-model="customer.postCode">
+		</div>
+		</div>
+		</div>
+		
+		<div class="form-group">
+		    <label>Address</label>
+		    <input class="form-control input-lg" size="20" type="text" name="email" ng-model="customer.address">
+		</div>
+	
+	
+	<a ng-click="getAddres()">TESTE</a>
+	<button type="submit" class="btn btn-primary">Submit</button>
+	</div>
+</form>
